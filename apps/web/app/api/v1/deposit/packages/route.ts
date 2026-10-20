@@ -1,6 +1,6 @@
 export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
-import { DEFAULT_QUOTA_PACKAGES } from '@ipay/shared';
+import { DEFAULT_QUOTA_PACKAGES } from '@/lib/shared';
 
 export async function GET(req: NextRequest) {
   try {

@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { getDataService } from '@/lib/dataService';
 import { getUserFromRequest } from '@/lib/auth';
-import { APP_CONFIG } from '@ipay/shared';
+import { APP_CONFIG } from '@/lib/shared';
 
 export async function GET(req: NextRequest) {
   try {

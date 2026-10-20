@@ -4,13 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "prebuild": "node ../../scripts/build-shared.js",
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
-    "@ipay/shared": "*",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.395.0",

@@ -1,7 +1,7 @@
 export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { getDataService } from '@/lib/dataService';
-import { APP_CONFIG } from '@ipay/shared';
+import { APP_CONFIG } from '@/lib/shared';
 
 export async function GET(req: NextRequest) {
   try {

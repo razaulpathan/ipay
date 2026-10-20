@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { getDataService } from '@/lib/dataService';
 import { getUserFromRequest } from '@/lib/auth';
-import { DEFAULT_WALLET_PROVIDERS } from '@ipay/shared';
+import { DEFAULT_WALLET_PROVIDERS } from '@/lib/shared';
 
 export async function POST(req: NextRequest) {
   try {

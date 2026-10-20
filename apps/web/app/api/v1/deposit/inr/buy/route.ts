@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { getDataService } from '@/lib/dataService';
 import { getUserFromRequest } from '@/lib/auth';
-import { DEFAULT_QUOTA_PACKAGES } from '@ipay/shared';
+import { DEFAULT_QUOTA_PACKAGES } from '@/lib/shared';
 
 export async function POST(req: NextRequest) {
   try {

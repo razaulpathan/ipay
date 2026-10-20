@@ -14,7 +14,7 @@ import {
   DEFAULT_QUOTA_PACKAGES,
   APP_CONFIG,
   DEFAULT_WALLET_PROVIDERS,
-} from '@ipay/shared';
+} from './shared';
 
 // In-Memory state for zero-config local runs / instant CI testing
 class InMemoryStore {
