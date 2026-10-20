@@ -5,7 +5,7 @@ import {
   APP_CONFIG,
   QuotaPackage,
   WalletProviderConfig,
-} from '@ipay/shared';
+} from '../shared';
 
 // Configurable backend URL: defaults to localhost:3000 or production Vercel URL
 export const API_BASE_URL =

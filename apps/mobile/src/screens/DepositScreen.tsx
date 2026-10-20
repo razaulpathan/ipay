@@ -19,7 +19,7 @@ import {
 } from 'lucide-react-native';
 import { useApp } from '../context/AppContext';
 import { WhatsAppFAB } from '../components/WhatsAppFAB';
-import { DEFAULT_QUOTA_PACKAGES, PRESET_USDT_AMOUNTS } from '@ipay/shared';
+import { DEFAULT_QUOTA_PACKAGES, PRESET_USDT_AMOUNTS } from '../shared';
 import { COLORS, SHADOWS } from '../theme';
 
 export const DepositScreen: React.FC = () => {

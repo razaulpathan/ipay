@@ -11,7 +11,7 @@ import { ChevronLeft, Check } from 'lucide-react-native';
 import Svg, { Rect, Circle, Path } from 'react-native-svg';
 import { useApp } from '../context/AppContext';
 import { WhatsAppFAB } from '../components/WhatsAppFAB';
-import { DEFAULT_WALLET_PROVIDERS, WalletProviderConfig } from '@ipay/shared';
+import { DEFAULT_WALLET_PROVIDERS, WalletProviderConfig } from '../shared';
 import { COLORS, SHADOWS } from '../theme';
 
 export const WalletSelectionScreen: React.FC = () => {

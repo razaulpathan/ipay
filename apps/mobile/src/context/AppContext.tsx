@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { UserProfile, LanguageCode, TRANSLATIONS, APP_CONFIG, AppConfig } from '@ipay/shared';
+import { UserProfile, LanguageCode, TRANSLATIONS, APP_CONFIG, AppConfig } from '../shared';
 import { api } from '../services/api';
 
 interface AppContextType {
