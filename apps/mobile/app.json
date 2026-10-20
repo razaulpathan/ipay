@@ -2,6 +2,7 @@
   "expo": {
     "name": "iPay",
     "slug": "ipay-mobile",
+    "owner": "razaul99900",
     "version": "1.0.32",
     "orientation": "portrait",
     "icon": "./assets/app_icon.jpg",
@@ -11,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#0b0f17"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.ipay.app"
@@ -23,7 +26,12 @@
       },
       "package": "com.ipay.app",
       "versionCode": 32,
-      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/app_icon.jpg"
@@ -35,6 +43,11 @@
           "photosPermission": "The app needs access to your photos to upload payment proof receipts."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ac8b3c2d-687d-49b3-848a-038180ad6092"
+      }
+    }
   }
 }
