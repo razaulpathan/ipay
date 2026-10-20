@@ -18,7 +18,7 @@ export const RewardPromoModal: React.FC = () => {
             {/* Banner Artwork */}
             <View style={styles.bannerContainer}>
               <Image
-                source={require('../../assets/banner_invite_reward.jpg')}
+                source={require('../../../assets/banner_invite_reward.jpg')}
                 style={styles.bannerImage}
                 resizeMode="cover"
               />
